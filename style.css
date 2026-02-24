@@ -20,12 +20,13 @@ body {
             border: 1px solid #ddd;
             padding: 12px 15px;
             text-align: left;
+            font-size: 14px;
         }
 
         th {
     background-color: #4CAF50;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     border-bottom: 3px solid #333; /* makes header line stronger */
 }
 
@@ -42,9 +43,10 @@ body {
         }
 
         @media screen and (max-width: 768px) {
-            table, tr, td, th {
-                display: block;
-            }
+            table th, table td {
+    padding: 8px 10px;
+    font-size: 14px;
+}
             th {
                 text-align: right;
             }
